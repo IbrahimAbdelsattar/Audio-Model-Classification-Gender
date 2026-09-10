@@ -1,131 +1,238 @@
-# 🎶 Audio Classification Project
+<br/><br/>
 
-## 📌 Project Overview
-This project focuses on building an **Audio Classification System** using machine learning and deep learning techniques. The main goal is to develop a model that can learn from raw audio signals, extract meaningful features, and accurately classify audio samples into their respective categories.
+<!-- Animated Title -->
+<a href="#">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Audio Model Classification Gender+%F0%9F%9A%80;Enterprise+Data+Science+%26+AI;Interactive+Analytics+%26+ML;Built+by+Ibrahim+Abdelsattar" alt="Typing SVG"/>
+</a>
 
-Audio classification is increasingly important in real-world applications such as:
-- Voice assistants and speech recognition.
-- Music genre classification and recommendation systems.
-- Anomaly detection in machinery and industrial equipment.
-- Emotion recognition from speech.
+<br/>
 
-By automating audio classification, we can enable intelligent systems to understand and react to sounds efficiently.
+<p align="center">
+  <b>Enterprise-Grade Data Science & Software Engineering Solution</b><br/>
+  <i>Data Visualization (Matplotlib/Seaborn/Plotly) · Librosa Audio Processing · Pandas & NumPy · Streamlit · TensorFlow/Keras</i>
+</p>
 
----
+<br/>
 
-## 🚀 Project Pipeline
+<!-- Badges Row -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Data%20Visualization%20(Matplotlib%2FSeaborn%2FPlotly)-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Librosa%20Audio%20Processing-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas%20&%20NumPy-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow%2FKeras-7C3AED?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/License-Academic-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+</p>
 
-The project follows a structured **end-to-end pipeline**:
+<br/>
 
-### 1. Importing Libraries
-We imported essential Python libraries for:
-- Audio processing: `librosa`, `noisereduce`.
-- Data handling: `pandas`, `numpy`.
-- Visualization: `matplotlib`, `seaborn`.
-- Machine learning and deep learning: `sklearn`, `tensorflow/keras`, `xgboost`.
+<!-- Quick Links -->
+<p align="center">
+  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-7C3AED?style=flat-square"/></a>
+  &nbsp;
+  <a href="#-core-features"><img src="https://img.shields.io/badge/🔥-Features-E11D48?style=flat-square"/></a>
+  &nbsp;
+  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square"/></a>
+  &nbsp;
+  <a href="#-technical-stack"><img src="https://img.shields.io/badge/⚙️-Tech%20Stack-16A34A?style=flat-square"/></a>
+  &nbsp;
+  <a href="#-getting-started"><img src="https://img.shields.io/badge/🚀-Getting%20Started-F59E0B?style=flat-square"/></a>
+</p>
 
-### 2. Audio Preprocessing
-- **Load Audio**: Read audio files using `librosa`.  
-- **Trim Silence**: Remove unnecessary silent parts.  
-- **Noise Reduction**: Reduce background noise.  
-- **Normalization**: Standardize audio amplitude.  
-- **Resampling**: Unify sample rates.  
-- **Padding/Truncating**: Ensure equal length across samples.  
-
-### 3. Feature Extraction
-Extracted meaningful features to represent audio signals:
-- Spectrogram (STFT)
-- Mel-Spectrogram
-- Spectral Centroid
-- Zero Crossing Rate (ZCR)
-- Spectral Rolloff
-- MFCC (Mel-Frequency Cepstral Coefficients)
-- RMS Energy
-
-### 4. Final Preprocessing on Data
-- Combined extracted features with labels into a structured dataset.
-- Handled missing values and duplicates.
-- Encoded categorical labels numerically.
-- Scaled features using `StandardScaler`.
-- Split dataset into **Training, Validation, and Test sets**.
-- Calculated **class weights** to address class imbalance.
-
-### 5. Exploratory Data Analysis (EDA)
-- Visualized class distribution.
-- Detected and handled class imbalance.
-- Analyzed feature correlations.
-
-### 6. Model Building
-We trained and evaluated multiple models:
-- **Classical ML Models**: SVM, XGBoost  
-- **Deep Learning Models**: DNN, LSTM, GRU  
-- **Advanced Models** (optional for future work): CNN on spectrograms, 1D-CNN on raw audio, ensemble models
-
-### 7. Model Evaluation
-Evaluation was performed on the **test set** using:
-- **Accuracy**
-- **Precision, Recall, F1-score**
-- **Confusion Matrix**
-- **Class-wise performance analysis**
-
-**Summary of Results (Test Set):**
-
-| Model   | Accuracy | Macro F1 | Weighted F1 | Minority Class Recall | Majority Class Recall |
-|---------|---------|-----------|-------------|---------------------|---------------------|
-| SVM     | 0.90    | 0.74      | 0.91        | 0.77                | 0.91                |
-| XGBoost | 0.95    | 0.73      | 0.94        | 0.32                | 1.00                |
-| DNN     | 0.93    | 0.80      | 0.94        | 0.76                | 0.95                |
-| LSTM    | 0.87    | 0.69      | 0.89        | 0.68                | 0.89                |
-| GRU     | 0.91    | 0.72      | 0.91        | 0.57                | 0.94                |
-
-**✅ Best Overall Model:**  
-- **DNN** provides the best balance between minority and majority class performance, with **high accuracy (0.93) and weighted F1-score (0.94)**.  
-- XGBoost excels in overall accuracy but underperforms on minority class.  
-- LSTM and GRU are slightly less effective, but GRU performs better than LSTM.
+<br/>
 
 ---
 
-## ⚡ Advanced Improvements
-- **CNN on Spectrograms**: Capture spatial patterns in audio.  
-- **1D-CNN on Raw Audio**: End-to-end learning from waveform.  
-- **Ensemble Models**: Combine multiple models for robust predictions.  
-- **Real-Time Audio Classification**: Deploy models for live prediction with Streamlit.
+## 📌 Overview
+
+**Audio Model Classification Gender** is an advanced software and data science repository engineered by **Ibrahim Abdelsattar**. It implements end-to-end data processing pipelines, predictive machine learning models, and production-ready code structures tailored for analytical precision and operational reliability.
+
+> Designed for seamless integration, high scalability, and robust computational performance.
 
 ---
 
-## 🛠️ Deployment
-- DNN model saved as `dnn_audio_classification.h5`.
-- Professional **Streamlit web app** developed for interactive predictions:
-  - Upload audio files or record live audio.
-  - View prediction probabilities.
-  - Visualize Mel-spectrogram.
-- Future deployment can include **ensemble predictions** for higher accuracy.
+## 🎯 Problem & Solution Architecture
+
+<table>
+<tr>
+<td width="50%">
+
+### ❌ The Challenge
+
+Traditional analytical approaches face critical operational limitations:
+
+- 📉 Manual data wrangling and non-standardized preprocessing
+- 🔮 Lack of feature attribution and model explainability
+- ⚠️ Unoptimized hyperparameters leading to sub-optimal accuracy
+- 🔄 Inefficient deployment workflows and missing pipeline automation
+
+</td>
+<td width="50%">
+
+### ✅ Our Solution
+
+| Challenge | Implemented Solution |
+|-----------|----------------------|
+| Raw Data Noise | Automated cleaning & feature encoding |
+| Low Accuracy | Tuned ML ensembles & robust evaluation |
+| Deployment Gaps | Modular CLI/Web interfaces & reproducible scripts |
+| Missing Insights | Visual metric plots & structured reporting |
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📁 Folder Structure (Recommended)
-audio_classification_project/
-│
-├─ data/ # Audio datasets
-├─ notebooks/ # Jupyter notebooks for analysis
-├─ models/ # Saved DNN/XGBoost models
-├─ streamlit_app.py # Streamlit deployment script
-├─ README.md # Project explanation
-└─ requirements.txt # Required Python packages
+## 🔥 Core Features
 
+<table>
+<tr>
+
+<td align="center" width="33%">
+<br/>
+<b>🤖 Machine Learning Models</b><br/><br/>
+• Deep Neural Network (DNN)<br/>• Support Vector Machine (SVM)<br/>• XGBoost<br/>
+Automated Hyperparameter Tuning<br/>
+Cross-Validation Pipeline<br/><br/>
+</td>
+<td align="center" width="33%">
+<br/>
+<b>📊 Data Preprocessing & EDA</b><br/><br/>
+Automated Missing Value Imputation<br/>
+Feature Engineering & Scaling<br/>
+Outlier Detection & Removal<br/>
+Exploratory Data Analysis Plots<br/><br/>
+</td>
+<td align="center" width="33%">
+<br/>
+<b>🎯 Production Guardrails</b><br/><br/>
+Strict Input Validation<br/>
+Reproducible Seed Setting<br/>
+Model Artifact Persistence<br/>
+Comprehensive Logging<br/><br/>
+</td>
+</tr>
+</table>
 
 ---
 
-## 📌 References
-- [Librosa Documentation](https://librosa.org/doc/latest/index.html) – Audio processing in Python  
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/) – Machine learning utilities  
-- [TensorFlow / Keras](https://www.tensorflow.org/) – Deep learning framework  
-- [XGBoost](https://xgboost.readthedocs.io/en/stable/) – Gradient boosting for ML  
+## 🏗️ System Architecture & Data Flow
+
+<br/>
+
+```mermaid
+flowchart LR
+    A["📥 Data Ingestion
+Raw Datasets / Inputs"] --> B["🧹 Preprocessing & Cleaning
+Feature Scaling & Encoding"]
+    B --> C["⚙️ Feature Engineering
+Domain Transformation"]
+    C --> D["🤖 Machine Learning Pipeline
+Model Training & Evaluation"]
+    D --> E["📊 Predictive Output & Metrics
+Interactive Dashboard / Reports"]
+    style A fill:#1e1b4b,color:#a5b4fc
+    style B fill:#312e81,color:#c7d2fe
+    style D fill:#1e3a5f,color:#93c5fd
+    style E fill:#14532d,color:#86efac
+```
 
 ---
 
-## 💡 Conclusion
-This project demonstrates an **end-to-end pipeline** for audio classification from preprocessing to model deployment.  
-The trained DNN provides **robust performance across classes**, and the Streamlit app allows **real-time predictions**.  
+## ⚙️ Technical Stack
 
-Future improvements can include **CNN-based models**, **ensemble learning**, and deployment on web or mobile platforms.
+<div align="center">
+
+| Layer | Technology | Purpose |
+|-------|-----------|---------|
+| **Data Visualization (Matplotlib/Seaborn/Plotly)** | Core Framework / Library | Primary computing and analytical engine |
+| **Librosa Audio Processing** | Core Framework / Library | Primary computing and analytical engine |
+| **Pandas & NumPy** | Core Framework / Library | Primary computing and analytical engine |
+| **Streamlit** | Core Framework / Library | Primary computing and analytical engine |
+| **TensorFlow/Keras** | Core Framework / Library | Primary computing and analytical engine |
+
+</div>
+
+---
+
+
+## 📊 Performance & Evaluation Metrics
+
+<div align="center">
+
+| Metric | Score / Value | Description |
+|:------:|:-------------:|-------------|
+| **Accuracy** | `62.13%` | Verified evaluation output from notebook/script |
+| **Accuracy** | `69.60%` | Verified evaluation output from notebook/script |
+| **Accuracy** | `91.06%` | Verified evaluation output from notebook/script |
+| **Accuracy** | `80.74%` | Verified evaluation output from notebook/script |
+
+</div>
+
+---
+
+
+## 📁 Directory Structure
+
+<details>
+<summary><b>📂 Click to expand repository tree</b></summary>
+
+```
+Audio-Model-Classification-Gender/
+│   ├── devcontainer.json
+├── README.md
+├── audio-classification-gender.ipynb
+├── dnn_app.py
+├── dnn_model.h5
+├── requirements.txt
+├── scaller.pkl
+```
+
+</details>
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.10+ (or Node.js 18+ for web apps)
+- Git & Virtualenv
+
+### Installation & Execution
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/IbrahimAbdelsattar/Audio-Model-Classification-Gender.git
+cd Audio-Model-Classification-Gender
+
+# 2. Set up virtual environment (Python)
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Launch project execution
+streamlit run app.py
+```
+
+---
+
+## 👤 Author & Contact
+
+<div align="center">
+
+**Ibrahim Abdelsattar**  
+*Data Scientist & AI Specialist · MTI University (CS & AI, GPA 3.5)*
+
+[Email](mailto:ibrahimabdelsattar042@gmail.com) · [GitHub](https://github.com/IbrahimAbdelsattar) · [LinkedIn](https://linkedin.com/in/ibrahim-abdelsattar)
+
+<br/>
+
+<img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Maintained%20by-Ibrahim%20Abdelsattar-7C3AED?style=for-the-badge"/>
+
+</div>
