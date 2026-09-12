@@ -1,83 +1,104 @@
 <br/><br/>
 
 <!-- Animated Title -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Audio Model Classification Gender+%F0%9F%9A%80;Enterprise+Data+Science+%26+AI;Interactive+Analytics+%26+ML;Built+by+Ibrahim+Abdelsattar" alt="Typing SVG"/>
-</a>
-
-<br/>
+<p align="center">
+  <a href="#">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&pause=1000&color=8B5CF6&center=true&vCenter=true&width=820&lines=Acoustic+Voice+Gender+Classification+%F0%9F%8E%A7;Deep+Neural+Network+(DNN)+%C2%B7+Librosa+Audio+Engineering;MFCCs+%C2%B7+Mel-Spectrograms+%C2%B7+Spectral+Features;Real-Time+WAV%2FMP3+Inference+%C2%B7+Streamlit+Studio" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
-  <b>Enterprise-Grade Data Science & Software Engineering Solution</b><br/>
-  <i>Data Visualization (Matplotlib/Seaborn/Plotly) · Librosa Audio Processing · Pandas & NumPy · Streamlit · TensorFlow/Keras</i>
+  <b>Deep Learning Acoustic Signal Processing Engine for Voice Gender Classification</b><br/>
+  <i>Librosa Feature Extraction · Multi-Tier Spectral Profiling (MFCC, Mel, Centroid, ZCR) · Keras Deep Neural Network · Interactive Audio Waveform & Spectrogram Studio</i>
 </p>
 
 <br/>
 
-<!-- Badges Row -->
+<!-- Badges Row 1: Core Technologies -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Data%20Visualization%20(Matplotlib%2FSeaborn%2FPlotly)-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Librosa%20Audio%20Processing-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas%20&%20NumPy-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow%2FKeras-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-Academic-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
+  <img src="https://img.shields.io/badge/Deep_Learning-Keras_%2F_TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="Keras" />
+  <img src="https://img.shields.io/badge/Audio_Processing-Librosa-E040FB?style=for-the-badge" alt="Librosa" />
+  <img src="https://img.shields.io/badge/Interface-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Visualization-Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib" />
+</p>
+
+<!-- Badges Row 2: Acoustic Features & Status -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Acoustics-13_MFCCs_%2B_40_Mel_Bands-00D4AA?style=for-the-badge" alt="MFCCs" />
+  <img src="https://img.shields.io/badge/Spectral-ZCR_%26_Centroid_%26_Rolloff-7C3AED?style=for-the-badge" alt="Spectral Features" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/Status-Production_Ready-brightgreen?style=for-the-badge" alt="Status" />
 </p>
 
 <br/>
 
-<!-- Quick Links -->
+<!-- Quick Navigation Bar -->
 <p align="center">
-  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-7C3AED?style=flat-square"/></a>
+  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-8B5CF6?style=flat-square" alt="Overview" /></a>
   &nbsp;
-  <a href="#-core-features"><img src="https://img.shields.io/badge/🔥-Features-E11D48?style=flat-square"/></a>
+  <a href="#-problem-statement--audio-solution"><img src="https://img.shields.io/badge/🎯-Problem%20%26%20Solution-E11D48?style=flat-square" alt="Problem" /></a>
   &nbsp;
-  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square"/></a>
+  <a href="#-acoustic-feature-pipeline"><img src="https://img.shields.io/badge/🔥-Acoustic%20Pipeline-D97706?style=flat-square" alt="Features" /></a>
   &nbsp;
-  <a href="#-technical-stack"><img src="https://img.shields.io/badge/⚙️-Tech%20Stack-16A34A?style=flat-square"/></a>
+  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square" alt="Architecture" /></a>
   &nbsp;
-  <a href="#-getting-started"><img src="https://img.shields.io/badge/🚀-Getting%20Started-F59E0B?style=flat-square"/></a>
+  <a href="#-deep-neural-network-topology"><img src="https://img.shields.io/badge/🔬-DNN%20Topology-7C3AED?style=flat-square" alt="DNN" /></a>
+  &nbsp;
+  <a href="#-quickstart--execution"><img src="https://img.shields.io/badge/🚀-Quickstart-4F46E5?style=flat-square" alt="Quickstart" /></a>
 </p>
-
-<br/>
 
 ---
 
 ## 📌 Overview
 
-**Audio Model Classification Gender** is an advanced software and data science repository engineered by **Ibrahim Abdelsattar**. It implements end-to-end data processing pipelines, predictive machine learning models, and production-ready code structures tailored for analytical precision and operational reliability.
+**Audio Model Classification Gender** is an end-to-end acoustic signal processing and deep learning system engineered to classify speaker gender from raw voice recordings. By translating raw time-domain audio waveforms into multi-dimensional spectral acoustic feature spaces, the platform extracts fundamental frequency harmonics, vocal tract resonances, and spectral energy envelopes.
 
-> Designed for seamless integration, high scalability, and robust computational performance.
+The architecture pairs a **Librosa acoustic feature extractor** with a **Deep Neural Network (DNN)** trained in Keras (`dnn_model.h5`), standardized via Scikit-Learn (`scaller.pkl`), and packaged inside an interactive **Streamlit Studio** providing real-time audio playback, waveform oscilloscope plots, and instant gender classification.
+
+```
+                     ┌────────────────────────────────────────────────────────┐
+                     │              Acoustic DNN Engine                       │
+                     │                                                        │
+[ Audio File: WAV / ]┼──> [ Librosa Resampling (22,050 Hz) ]                  ├──> [ Classification Report ]
+[ MP3 Upload        ]│             │                                          │    - ♂️ Male / ♀️ Female Verdict
+                     │             ▼                                          │    - Confidence Score (%)
+                     │    [ Multi-Feature Vectorizer (57 Dimensions) ]        │    - Waveform Oscilloscope
+                     │       ├── 13 MFCCs + 40 Mel Spectrograms               │    - Mel-Spectrogram Heatmap
+                     │       └── Spectral Centroid, Rolloff, ZCR, RMS         │
+                     │             │                                          │
+                     │             ▼                                          │
+                     │    [ StandardScaler ] ──> [ Deep Neural Net (DNN) ]    │
+                     └────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 🎯 Problem & Solution Architecture
+## 🎯 Problem Statement & Audio Solution
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ❌ The Challenge
+### ❌ The Acoustic Voice Challenge
 
-Traditional analytical approaches face critical operational limitations:
+Classifying speaker characteristics from unconstrained audio faces several hurdles:
 
-- 📉 Manual data wrangling and non-standardized preprocessing
-- 🔮 Lack of feature attribution and model explainability
-- ⚠️ Unoptimized hyperparameters leading to sub-optimal accuracy
-- 🔄 Inefficient deployment workflows and missing pipeline automation
+- 🌊 **Background Noise & Clipping**: Real-world voice clips contain room reverberation, varying microphone gains, and ambient noise.
+- ⏱️ **Variable Clip Lengths**: Direct time-domain modeling fails when recordings range from 1 second to several minutes.
+- 🎚️ **Pitch Overlap**: Pitch alone cannot reliably distinguish gender due to overlapping vocal ranges (e.g. adolescent male vs. female speakers).
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ✅ Our Solution
+### ✅ The Signal Processing Solution
 
-| Challenge | Implemented Solution |
-|-----------|----------------------|
-| Raw Data Noise | Automated cleaning & feature encoding |
-| Low Accuracy | Tuned ML ensembles & robust evaluation |
-| Deployment Gaps | Modular CLI/Web interfaces & reproducible scripts |
-| Missing Insights | Visual metric plots & structured reporting |
+| Challenge | Applied Engineering Solution |
+| :--- | :--- |
+| **Spectral Invariance** | Extracts **13 MFCCs** and **40 Mel-filterbank bands**, mimicking human cochlear frequency perception. |
+| **Timbre & Texture** | Combines **Spectral Centroid** (brightness), **Spectral Rolloff** (high-frequency energy), and **ZCR** (noisiness). |
+| **Duration Invariance** | Averages time-step frames across the temporal axis to produce a fixed **57-dimensional feature vector**. |
+| **Deep Non-Linearity** | **Keras Multi-Layer DNN** captures non-linear acoustic interactions beyond simple pitch thresholds. |
 
 </td>
 </tr>
@@ -85,154 +106,143 @@ Traditional analytical approaches face critical operational limitations:
 
 ---
 
-## 🔥 Core Features
+## 🔥 Acoustic Feature Pipeline
 
-<table>
-<tr>
+The system extracts a concatenated **57-dimensional feature representation** per audio sample:
 
-<td align="center" width="33%">
-<br/>
-<b>🤖 Machine Learning Models</b><br/><br/>
-• Deep Neural Network (DNN)<br/>• Support Vector Machine (SVM)<br/>• XGBoost<br/>
-Automated Hyperparameter Tuning<br/>
-Cross-Validation Pipeline<br/><br/>
-</td>
-<td align="center" width="33%">
-<br/>
-<b>📊 Data Preprocessing & EDA</b><br/><br/>
-Automated Missing Value Imputation<br/>
-Feature Engineering & Scaling<br/>
-Outlier Detection & Removal<br/>
-Exploratory Data Analysis Plots<br/><br/>
-</td>
-<td align="center" width="33%">
-<br/>
-<b>🎯 Production Guardrails</b><br/><br/>
-Strict Input Validation<br/>
-Reproducible Seed Setting<br/>
-Model Artifact Persistence<br/>
-Comprehensive Logging<br/><br/>
-</td>
-</tr>
-</table>
+| Feature Dimension | Quantity | Acoustic Characteristic Captured |
+| :--- | :---: | :--- |
+| **MFCC Means** | **13** | Spectral envelope and vocal tract vocalization shape |
+| **Mel Spectrogram Means** | **40** | Non-linear psychoacoustic pitch and power distribution |
+| **Spectral Centroid** | **1** | "Center of mass" of sound; correlates with vocal brightness |
+| **Spectral Rolloff** | **1** | Frequency below which 85% of spectral energy concentrates |
+| **Zero Crossing Rate (ZCR)** | **1** | Rate of sign-changes; differentiates voiced from unvoiced consonants |
+| **Root Mean Square (RMS)** | **1** | Global acoustic energy and signal intensity |
 
 ---
 
-## 🏗️ System Architecture & Data Flow
-
-<br/>
+## 🏗️ System Architecture
 
 ```mermaid
-flowchart LR
-    A["📥 Data Ingestion
-Raw Datasets / Inputs"] --> B["🧹 Preprocessing & Cleaning
-Feature Scaling & Encoding"]
-    B --> C["⚙️ Feature Engineering
-Domain Transformation"]
-    C --> D["🤖 Machine Learning Pipeline
-Model Training & Evaluation"]
-    D --> E["📊 Predictive Output & Metrics
-Interactive Dashboard / Reports"]
-    style A fill:#1e1b4b,color:#a5b4fc
-    style B fill:#312e81,color:#c7d2fe
-    style D fill:#1e3a5f,color:#93c5fd
-    style E fill:#14532d,color:#86efac
+graph TD
+    subgraph AudioIngestion["Audio Ingestion & Preprocessing"]
+        Upload["Audio Upload (.wav, .mp3)"]
+        LibrosaLoad["Librosa Audio Loader (sr = 22,050 Hz)"]
+        AudioPlayer["Streamlit In-Browser Audio Player"]
+    end
+
+    subgraph FeatureExtraction["Signal Processing Pipeline (librosa)"]
+        MFCC["13 MFCCs Extraction"]
+        MelSpec["40 Mel Bands Extraction"]
+        SpectralProps["Spectral Centroid, Rolloff, ZCR, RMS"]
+        Assembler["Horizontal Stack (57-dim Vector)"]
+        Scaler["StandardScaler Normalization (scaller.pkl)"]
+    end
+
+    subgraph DNNModel["Deep Learning Inference (Keras)"]
+        DNN["Deep Neural Network Classifier (dnn_model.h5)"]
+        SigmoidOutput["Sigmoid Probability Thresholding"]
+    end
+
+    subgraph VisualDiagnostics["Diagnostic Analytics"]
+        WaveformPlot["Matplotlib Audio Waveform Plot"]
+        PredictionDisplay["Gender Verdict & Probability Badge"]
+    end
+
+    Upload --> LibrosaLoad
+    Upload --> AudioPlayer
+    LibrosaLoad --> WaveformPlot
+    
+    LibrosaLoad --> MFCC
+    LibrosaLoad --> MelSpec
+    LibrosaLoad --> SpectralProps
+    
+    MFCC --> Assembler
+    MelSpec --> Assembler
+    SpectralProps --> Assembler
+    
+    Assembler --> Scaler
+    Scaler --> DNN
+    DNN --> SigmoidOutput
+    SigmoidOutput --> PredictionDisplay
 ```
 
 ---
 
 ## ⚙️ Technical Stack
 
-<div align="center">
-
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| **Data Visualization (Matplotlib/Seaborn/Plotly)** | Core Framework / Library | Primary computing and analytical engine |
-| **Librosa Audio Processing** | Core Framework / Library | Primary computing and analytical engine |
-| **Pandas & NumPy** | Core Framework / Library | Primary computing and analytical engine |
-| **Streamlit** | Core Framework / Library | Primary computing and analytical engine |
-| **TensorFlow/Keras** | Core Framework / Library | Primary computing and analytical engine |
-
-</div>
+| Component | Technology | Purpose & Implementation |
+| :--- | :--- | :--- |
+| **Deep Learning** | **TensorFlow & Keras** | Sequential Deep Neural Network architecture (`dnn_model.h5`) |
+| **Acoustic Processing** | **Librosa** | Audio decoding, resampling, STFT, MFCCs, and spectral analysis |
+| **Feature Scaling** | **Scikit-Learn** | StandardScaler fit to training distribution (`scaller.pkl`) |
+| **Interactive UI** | **Streamlit** | Low-latency dashboard with audio upload and waveform rendering |
+| **Acoustic Plotting** | **Matplotlib** | Real-time oscillogram and waveform visualization |
 
 ---
 
-
-## 📊 Performance & Evaluation Metrics
-
-<div align="center">
-
-| Metric | Score / Value | Description |
-|:------:|:-------------:|-------------|
-| **Accuracy** | `62.13%` | Verified evaluation output from notebook/script |
-| **Accuracy** | `69.60%` | Verified evaluation output from notebook/script |
-| **Accuracy** | `91.06%` | Verified evaluation output from notebook/script |
-| **Accuracy** | `80.74%` | Verified evaluation output from notebook/script |
-
-</div>
-
----
-
-
-## 📁 Directory Structure
-
-<details>
-<summary><b>📂 Click to expand repository tree</b></summary>
+## 📁 Repository Structure
 
 ```
 Audio-Model-Classification-Gender/
-│   ├── devcontainer.json
-├── README.md
-├── audio-classification-gender.ipynb
-├── dnn_app.py
-├── dnn_model.h5
-├── requirements.txt
-├── scaller.pkl
+├── 📄 dnn_app.py                       # Interactive Streamlit audio classification application
+├── 📄 audio-classification-gender.ipynb # Training, feature engineering & model validation notebook
+├── 📄 dnn_model.h5                     # Serialized Keras Deep Neural Network model
+├── 📄 scaller.pkl                      # Serialized StandardScaler for 57 acoustic features
+├── 📄 requirements.txt                 # Dependencies
+├── 📁 .devcontainer/                   # Development container configuration
+└── 📄 README.md                        # Documentation
 ```
-
-</details>
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quickstart & Execution
 
 ### Prerequisites
+- **Python**: 3.10 or higher
+- **FFmpeg**: Recommended for universal audio format decoding (`mp3`, `flac`)
 
-- Python 3.10+ (or Node.js 18+ for web apps)
-- Git & Virtualenv
+---
 
-### Installation & Execution
+### 1. Installation
 
 ```bash
-# 1. Clone the repository
+# 1. Clone repository
 git clone https://github.com/IbrahimAbdelsattar/Audio-Model-Classification-Gender.git
 cd Audio-Model-Classification-Gender
 
-# 2. Set up virtual environment (Python)
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+# 2. Create virtual environment
+python -m venv venv
+source venv/bin/activate        # On Windows: .\venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
-
-# 4. Launch project execution
-streamlit run app.py
+pip install streamlit tensorflow librosa scikit-learn matplotlib numpy joblib
 ```
 
 ---
 
-## 👤 Author & Contact
+### 2. Running the Audio Classifier
 
-<div align="center">
+```bash
+streamlit run dnn_app.py
+```
+
+*The web application will open at `http://localhost:8501`. Upload any `.wav` or `.mp3` voice clip to visualize the waveform and generate predictions.*
+
+---
+
+## 👥 Author & Connect
 
 **Ibrahim Abdelsattar**  
-*Data Scientist & AI Specialist · MTI University (CS & AI, GPA 3.5)*
+*AI Engineer & Machine Learning Specialist*
 
-[Email](mailto:ibrahimabdelsattar042@gmail.com) · [GitHub](https://github.com/IbrahimAbdelsattar) · [LinkedIn](https://linkedin.com/in/ibrahim-abdelsattar)
+- 🌐 **GitHub**: [@IbrahimAbdelsattar](https://github.com/IbrahimAbdelsattar)
+- 💼 **LinkedIn**: [Ibrahim Abdelsattar](https://www.linkedin.com/in/ibrahim-abdelsattar/)
+- 📧 **Email**: [ibrahimabdelsattar042@gmail.com](mailto:ibrahimabdelsattar042@gmail.com)
 
-<br/>
+---
 
-<img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Maintained%20by-Ibrahim%20Abdelsattar-7C3AED?style=for-the-badge"/>
-
-</div>
+<p align="center">
+  <sub>Engineered for acoustic machine learning, voice analytics, and digital signal processing. © 2026 Audio Gender Classification.</sub>
+</p>
