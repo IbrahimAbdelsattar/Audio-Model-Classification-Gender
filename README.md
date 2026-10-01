@@ -25,6 +25,31 @@ An audio classification experiment with a Streamlit demo that extracts acoustic 
 
 Run from the repository root so `dnn_model.h5` and `scaller.pkl` resolve correctly. Keep the feature order and preprocessing consistent with training. The binary output represents dataset labels inferred from audio; it does not establish a speaker's gender identity. Training data and notebook-specific packages must be supplied separately where referenced. The committed runtime manifest omits scikit-learn/joblib dependencies needed by the saved preprocessing or model artifacts; the supplemental install command supplies them.
 
+## UML diagrams
+
+### Main workflow
+
+The application extracts the same 57 audio features before scaling and DNN inference.
+
+```mermaid
+sequenceDiagram
+    actor User
+    participant App as Streamlit dnn_app.py
+    participant Audio as librosa
+    participant Scale as Saved scaler
+    participant DNN as dnn_model.h5
+    User->>App: Upload audio recording
+    App->>Audio: Load waveform and sample rate
+    Audio-->>App: Audio samples
+    App->>Audio: Extract MFCC, mel, and spectral features
+    Audio-->>App: 57-feature vector
+    App->>Scale: transform features
+    Scale-->>App: Scaled vector
+    App->>DNN: predict
+    DNN-->>App: Class score
+    App-->>User: Dataset label and audio visualizations
+```
+
 ## Getting started
 
 ```bash
